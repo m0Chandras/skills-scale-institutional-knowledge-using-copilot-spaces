@@ -35,9 +35,12 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
   - ID, Description, Impact, Probability, Owner, Mitigation
 - Mark cross-team dependencies in the project board and escalate during weekly syncs
 
+For comprehensive risk management guidance, see the [Risk Management Checklist](./octoacme-risk-management-checklist.md).
+
 ## Planning Checklist
 - [ ] Project kickoff held
 - [ ] Backlog prioritized and estimated
 - [ ] Release timeline and milestones agreed
 - [ ] Definition of Done documented
-- [ ] Initial test plan / QA approach drafted
+- [ ] Initial test plan / QA approach drafted (see [QA Checklist](./octoacme-qa-checklist.md))
+- [ ] Risk assessment completed (see [Risk Management Checklist](./octoacme-risk-management-checklist.md))

@@ -23,15 +23,22 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Security scanning in CI
 - Manual QA for feature acceptance when needed
 
+For comprehensive testing guidance, see the [QA & Testing Checklist](./octoacme-qa-checklist.md).
+
 ## Reporting & Metrics
 - Track velocity and burndown
 - Monitor success metrics identified in the Project One-pager
 - Use dashboards for key signals (errors, latency, usage)
 
 ## Blocker Escalation
-- Level 1: Team-level triage in daily standup
-- Level 2: PM escalates to Product Lead and dependent teams
-- Level 3: Sponsor-level escalation for business-impacting issues
+Follow the defined escalation hierarchy for blockers and risks:
+
+**Level 1 - Team-level:** Triage in daily standup  
+**Level 2 - PM-level:** PM escalates to Product Lead and dependent teams  
+**Level 3 - Leadership-level:** Product/Tech Lead for significant issues  
+**Level 4 - Executive-level:** Sponsor-level escalation for business-impacting issues
+
+For detailed escalation procedures and special cases, see [Risk Management & Communication](./octoacme-risks-and-communication.md).
 
 ## Execution Checklist
 - [ ] Branching and PR conventions documented in repo

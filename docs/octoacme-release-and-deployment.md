@@ -11,14 +11,21 @@ Standardize how OctoAcme releases features to production to reduce risk and impr
 ## Pre-release requirements
 - All acceptance criteria met and PRs merged
 - Passing CI and security scans
+- QA sign-off obtained (see [QA Checklist](./octoacme-qa-checklist.md))
 - Release notes drafted
 - Rollback / mitigation plan documented
 - Smoke tests prepared
 
+For a comprehensive release process, use the [Release Checklist](./octoacme-release-checklist.md).
+
 ## Deployment Checklist
+Use the comprehensive [Release Checklist](./octoacme-release-checklist.md) for detailed deployment steps.
+
+### Quick Reference:
 - [ ] Deployment window scheduled (if needed)
 - [ ] Backup or snapshot (if applicable)
 - [ ] Deploy to staging and run smoke tests
+- [ ] QA sign-off obtained
 - [ ] Deploy to production (automated pipeline preferred)
 - [ ] Run post-deploy verifications
 - [ ] Announce release to stakeholders and support
