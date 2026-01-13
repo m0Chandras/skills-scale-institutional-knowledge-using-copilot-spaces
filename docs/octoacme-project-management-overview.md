@@ -14,19 +14,27 @@ Applies to all cross-functional projects that deliver product features, services
 - Psychological safety: encourage feedback and learning.
 
 ## Core Roles
-- Project Manager (PM): coordinates delivery, schedules, risk, communications.
-- Product Manager (PdM): defines outcomes, prioritizes backlog, and measures success.
-- Developers: implement features, collaborate on design and testability.
-- QA/Testing: validate quality and acceptance criteria.
-- Stakeholders: provide inputs and approvals.
+- **Project Manager (PM)**: coordinates delivery, schedules, risk, communications.
+- **Product Manager (PdM)**: defines outcomes, prioritizes backlog, and measures success.
+- **Developers**: implement features, collaborate on design and testability.
+- **Tech Lead / Architect**: defines technical direction and ensures architectural soundness.
+- **QA Lead / Test Engineer**: validate quality, create test plans, and ensure acceptance criteria are met.
+- **DevOps Engineer**: manages CI/CD, infrastructure, and deployment automation.
+- **UX/UI Designer**: researches user needs, designs interfaces, and validates usability.
+- **Security Champion**: advocates for security best practices and conducts security reviews.
+- **Business Stakeholder**: provides strategic direction, funding, and approvals.
+
+For detailed role descriptions, see [OctoAcme Roles and Personas](./octoacme-roles-and-personas.md).
 
 ## Key Artifacts
-- Project Charter / One-pager
-- Roadmap and Release Plan
-- Sprint/Iteration Backlog
-- Acceptance Criteria & Definition of Done
-- Risk Register
-- Retrospective notes and action items
+- **Project Charter / One-pager** - defines problem, goals, and success metrics
+- **Roadmap and Release Plan** - timeline and milestones
+- **Sprint/Iteration Backlog** - prioritized work items
+- **Acceptance Criteria & Definition of Done** - quality standards
+- **Risk Register** - tracked risks and mitigations (see [Risk Management Checklist](./octoacme-risk-management-checklist.md))
+- **QA & Testing Plans** - quality assurance approach (see [QA Checklist](./octoacme-qa-checklist.md))
+- **Release Checklists** - deployment verification (see [Release Checklist](./octoacme-release-checklist.md))
+- **Retrospective notes and action items** - continuous improvement
 
 ## Lifecycle (high-level)
 1. Initiation: problem statement, stakeholders, high-level timeline.
